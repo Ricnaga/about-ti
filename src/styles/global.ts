@@ -3,8 +3,7 @@ import styled, {createGlobalStyle} from 'styled-components'
 export default createGlobalStyle`
 
 #root{
-    --color-all-text: #4A4848;
-    
+    --color-all-text: #4A4848;    
 }
 
 *{
@@ -12,13 +11,13 @@ export default createGlobalStyle`
     padding:0;
     outline:0;
     box-sizing:border-box;
-    width:100vw;
-
+   
     background:linear-gradient(to bottom right, #00ACD6, #02FFC9) no-repeat fixed;
 
     text-align:justify;
     font:16px 'Acme', sans-serif;
     color:var(--color-all-text);
+
 }
 `;
 
@@ -34,6 +33,8 @@ export const Buttons = styled.div`
         background:linear-gradient(to bottom right, #02FFC9, #00ACD6);        
 
         padding:0.2em;
+
+        flex:1;
         
     }
 

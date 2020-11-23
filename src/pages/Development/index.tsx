@@ -7,7 +7,7 @@ const Development:React.FC = () => {
         <MainDev>
             <h1>Olá, essa página está inteiramente dedicada ao mundo Dev (desenvolvimento)</h1>
             <h2>Desenvolvedores ou Programadores são profissões dentro da T.I. onde são responsáveis inteiramente pela parte de sistemas, seja ela em resolução ou implementação de tecnologias novas.
-                Em hipótese alguma resolvem problemas físicos, citarei alguns tipos de desenvolvedores e descreverei algumas das citações abaixo.(Claro que todas são com base da minha experiência ou entendimento :)).
+                Em hipótese alguma resolvem problemas físicos, citarei alguns tipos de desenvolvedores e descreverei algumas das citações abaixo.(Claro que todas são com base da minha experiência ou entendimento ).
             </h2>
 
             <ul>

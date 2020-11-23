@@ -5,8 +5,9 @@ import React, {
 } from 'react';
 
 import Dashboard from './pages/Dashboard'
-import Users from './pages/Users'
-import Customers from './pages/Customers'
+import Development from './pages/Development'
+import Network from './pages/Network'
+import GlobalStyle, {Buttons} from './styles/global';
 
 const App:React.FC = () => {
     const [ pages, setPages] = useState<JSX.Element>();
@@ -21,10 +22,13 @@ const App:React.FC = () => {
 
     return (
         <>
-        <button id="Dashboard" onClick={() => loadPages(<Dashboard />)}>Dashboard</button>
-        <button id="Users" onClick={() => loadPages(<Users />)}>Users</button>
-        <button id="Customers" onClick={() => loadPages(<Customers />)}>Customers</button>
+        <Buttons>
+            <button id="Dashboard" onClick={() => loadPages(<Dashboard />)}>Dashboard</button>
+            <button id="Development" onClick={() => loadPages(<Development />)}>Development</button>
+            <button id="Network" onClick={() => loadPages(<Network />)}>Network</button>
+        </Buttons>
         {pages}
+        <GlobalStyle/>
         </>
     )
 }

@@ -13,11 +13,17 @@ export const MainDev = styled.div`
         margin:1.5em;
     }
 
-    p, strong{
-        font-size:24px;
+    p{
+        margin:0.3em;
+        line-height:1.5em;
     }
 
     strong{
         font-weight:bolder;
     }
+
+    p, strong{
+        font-size:24px;
+    }
+
 `;

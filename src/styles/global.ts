@@ -29,6 +29,7 @@ export const Buttons = styled.div`
     padding:0.5em;
 
     button{
+        border-color:#00ACD6;
         text-align:center;
         background:linear-gradient(to bottom right, #02FFC9, #00ACD6);        
 
@@ -55,7 +56,6 @@ export const Buttons = styled.div`
             &:hover{
                 padding:0.4em;
                 text-decoration:underline;
-                opacity:0.8;
             }
         }
     }

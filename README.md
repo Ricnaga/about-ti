@@ -1,46 +1,58 @@
-# about TI
-#### <div align="right">- Projeto finalizado <div>
-## <div align="center"> desenvolvimento de um site em React mas sem a utilização de roteamento de páginas<div>
 
-### <div align="center">Sumário <div>
-### <div align="center">================= <div>
+# <div align="center"> About T.I. </div>
+![GitHub](https://img.shields.io/github/license/Ricnaga/aboutTI)
+
+#### <div align="right">- Projeto Finalizado <div>
+
+### <div align="center"> Projeto criado com o intuito roteamento alternativo de páginas sem utilizar rotas, esse projeto aborda conceitos sobre: </div>
+
+#### 1. Hooks React: useState
+#### 2. Hooks React: useEffect
+#### 3. Tipagens com Typescript 
+#### 4. Utilização de props
+#### 5. Estilizações básicas com CSS
+
+## <div align="center"> Sumário </div>
 <!--ts-->
-   - [Requisitos](#Requisitos)
-   - [Tecnologias utilizadas](#tecnologias-utilizadas)
-   - [Autor](#autor)
-   - [Licença](#Licença)
+   - [Requisitos](#<div-align="center">Requisitos</div>)
+   - [Tecnologias utilizadas](#<div-align="center">Tecnologias-utilizadas</div>)
+   - [Autor](#<div-align="center">Autor</div>)
 <!--te-->
+## <div align="center">Requisitos</div>
+Para executar a aplicação é necessário instalar algumas ferramentas tais como um editor de códigos para realizar compilação dos mesmos. Nesse projeto foi utilizado o [Visual Studio Code](https://code.visualstudio.com/), [NodeJS](https://nodejs.org/en/) para compilação do código, [Git Bash](https://gitforwindows.org/) para baixar o repositório e baixar todas as dependências necessárias. 
 
-## <div align="center">Requisitos<div>
-Antes de começar é necessário instalar algumas ferramentas, tais como um editor de códigos para realizar compilação dos mesmos. Os códigos desse repositório foi utilizado o [Visual Studio Code](https://code.visualstudio.com/), [NodeJS](https://nodejs.org/en/) e [Git Bash](https://gitforwindows.org/). Após instalados, será necessário instalar o também o [Yarn](https://yarnpkg.com/) para que seja possível automatizar as instalações de todas as dependências que foram usadas nessa aplicação.
+```bash
+# Baixe o repositório.
+$ git clone https://github.com/Ricnaga/aboutTI.git
 
-No terminal, realize a clonagem do repositório.\
-$ git clone <https://github.com/Ricnaga/aboutTI> \
-Acesse o projeto.\
-$ cd aboutTI \
-Execute o comando yarn para reaver todos as dependências instaladas dessa aplicação.
-$ yarn
+# Acesse a pasta do projeto.
+$ cd aboutTI
 
-Feito todos os passo anteriores é hora de iniciar a aplicação.\
-$ yarn start\
+# Agora que baixou e acessou o repositório, vamos começar a instalação das dependências.
+$ yarn ( caso não utilize o yarn execute apenas npm -i)
 
-Após isso, só aguarde que será aberto um navegador com acesso ao sistema.
+# Depois de instalado todas as dependências, abra a aplicação via vscode
+$ code .
 
-## <div align="center">Tecnologias utilizadas<div>
-- [NodeJS](https://nodejs.org/en/) 
-- [Git Bash](https://gitforwindows.org/)
-- [Yarn](https://yarnpkg.com/getting-started/install)
-- [ReactJS](https://pt-br.reactjs.org/)
-- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [ECMAscript](https://www.ecma-international.org/publications/standards/Standard.htm)
+# Agore execute a aplicação.
+$ yarn start (caso não utilize o yarn: npm run start)
+
+# A aplicação iniciará na porta 3000 
+# No navegador digite: http://localhost:3000
+```
+
+##  <div align="center">Tecnologias utilizadas</div>
+- [HTML](https://www.w3.org/HTML)
 - [Typescript](https://www.typescriptlang.org/)
+- [React JS](https://pt-br.reactjs.org/)
 
-## <div align="center">Autor<div>
-Exercícios extraídos da [Rocketseat](https://rocketseat.com.br/), realizados e respondidos por minha pessoa :) \
-Gostou? tem alguma sugestão de melhoria? por favor, entre em contato e ja aproveita e me adiciona \
+
+## <div align="center">Autor</div>
+<div align="center">Atividade desenvolvida e realizado por minha pessoa.
+Gostou? tem alguma sugestão de melhoria? por favor, entre em contato e ja aproveita e me adiciona.<br>
 <a href="https://www.linkedin.com/in/ricardo-nagatomy-56553254"><img src="https://img.shields.io/badge/-RicardoNaga-blue?style=flat-square&logo=Linkedin&logoColor=white"></a>
 <a href="https://app.rocketseat.com.br/me/ricardo-nagatomy-08130"><img src="https://img.shields.io/badge/-Rocketseat-000?style=flat-square&logo=&logoColor=white"></a>
+</div>
 
-## <div align="center">Licença<div>
-
-![GitHub](https://img.shields.io/github/license/Ricnaga/aboutTI)
+#
+<div align="center"> <img src="https://img.shields.io/github/license/Ricnaga/dtmoney?color=purple&style=for-the-badge"/> </div>

@@ -1,7 +1,7 @@
 import React from 'react';
-import {MainDsbrd} from './styles'
+import { MainDsbrd } from './styles'
 
-const Dashboard:React.FC = () => {
+export default function Dashboard() {
     return (
         <MainDsbrd>
             <h1>Bem vindo a página principal!!!</h1>
@@ -18,4 +18,4 @@ const Dashboard:React.FC = () => {
     )
 }
 
-export default Dashboard;
+
